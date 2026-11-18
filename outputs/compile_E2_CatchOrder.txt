@@ -1,0 +1,4 @@
+errors\E2_CatchOrder.java:10: error: exception IOException has already been caught
+        } catch (IOException e) {      // недосяжний блок
+          ^
+1 error

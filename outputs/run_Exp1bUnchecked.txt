@@ -1,0 +1,9 @@
+Ділення на нуль:
+java.lang.ArithmeticException: / by zero
+	at ua.duikt.pr5.Exp1bUnchecked.main(Exp1bUnchecked.java:13)
+Вихід за межі масиву:
+java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 3
+	at ua.duikt.pr5.Exp1bUnchecked.main(Exp1bUnchecked.java:20)
+Без обробки програма завершується аварійно:
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 3
+	at ua.duikt.pr5.Exp1bUnchecked.main(Exp1bUnchecked.java:26)

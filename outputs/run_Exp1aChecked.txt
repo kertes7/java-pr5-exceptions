@@ -1,0 +1,2 @@
+[try-catch] Не вдалося відкрити файл: data.txt (Не удается найти указанный файл)
+[throws] Виняток передано нагору і оброблено в main: FileNotFoundException

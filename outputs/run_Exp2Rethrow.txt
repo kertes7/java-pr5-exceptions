@@ -1,0 +1,17 @@
+=== 1) new InvalidGradeException(e.getMessage()) ===
+ua.duikt.pr5.InvalidGradeException: For input string: "abc"
+	at ua.duikt.pr5.Exp2Rethrow.parseWithoutCause(Exp2Rethrow.java:10)
+	at ua.duikt.pr5.Exp2Rethrow.main(Exp2Rethrow.java:26)
+getCause() = null
+
+=== 2) new InvalidGradeException("Некоректна оцінка", e) ===
+ua.duikt.pr5.InvalidGradeException: Некоректна оцінка
+	at ua.duikt.pr5.Exp2Rethrow.parseWithCause(Exp2Rethrow.java:18)
+	at ua.duikt.pr5.Exp2Rethrow.main(Exp2Rethrow.java:35)
+Caused by: java.lang.NumberFormatException: For input string: "abc"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:662)
+	at java.base/java.lang.Integer.parseInt(Integer.java:778)
+	at ua.duikt.pr5.Exp2Rethrow.parseWithCause(Exp2Rethrow.java:16)
+	... 1 more
+getCause() = java.lang.NumberFormatException: For input string: "abc"
